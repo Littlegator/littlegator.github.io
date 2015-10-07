@@ -1,5 +1,5 @@
 edit:
-	gedit *.htm &
+	gedit %.htm &
 
 clean:
 	rm *~
