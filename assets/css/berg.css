@@ -72,9 +72,12 @@
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  1. GLOBAL STYLES
 /*  1.1 GENERAL STYLES
 /*---------------------------------------------------------------------*/
+
 body,
 html {
   width: 100%;
@@ -92,8 +95,11 @@ body {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  1.2. TEXT COLOR
 /*---------------------------------------------------------------------*/
+
 .text-grey {
   color: #a1a1a1;
 }
@@ -104,8 +110,11 @@ body {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  1.3. ANCHOR
 /*---------------------------------------------------------------------*/
+
 a {
   color: #c80a48;
   outline: none;
@@ -124,8 +133,11 @@ a:focus {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  1.4. HEADING
 /*---------------------------------------------------------------------*/
+
 h1,
 h2,
 h3,
@@ -138,9 +150,12 @@ h6 {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  2. COMPONENTS
 /*  2.1. BUTTON
 /*---------------------------------------------------------------------*/
+
 .btn.btn-custom {
   background-color: #c80a48;
   font-family: 'Raleway', sans-serif;
@@ -191,8 +206,11 @@ h6 {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  2.2. DIVIDER
 /*---------------------------------------------------------------------*/
+
 span.divider {
   display: block;
   margin: 35px 0px;
@@ -208,16 +226,22 @@ span.divider.center {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  2.3. UPPERCASE
 /*---------------------------------------------------------------------*/
+
 .uppercase {
   text-transform: uppercase;
 }
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  2.4. SELECT BOXES CUSTOM
 /*---------------------------------------------------------------------*/
+
 .select2-container--default .select2-selection--single.select2-container-custom {
   background-color: #0d0c0d;
   height: 46px;
@@ -275,8 +299,11 @@ span.divider.center {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  2.5. RADIO BUTTON CUSTOM
 /*---------------------------------------------------------------------*/
+
 .form-group .radio {
   margin-bottom: 5px;
   padding-left: 1px;
@@ -323,8 +350,11 @@ span.divider.center {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  2.6. CHECKBOX CUSTOM
 /*---------------------------------------------------------------------*/
+
 .form-group .checkbox {
   margin-bottom: 5px;
   padding-left: 1px;
@@ -371,8 +401,11 @@ span.divider.center {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  3. PRELOADER
 /*---------------------------------------------------------------------*/
+
 #jpreOverlay {
   background-color: #0d0c0d;
 }
@@ -388,8 +421,11 @@ span.divider.center {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  4. HOME
 /*---------------------------------------------------------------------*/
+
 header.hero {
   display: table;
   position: relative;
@@ -556,16 +592,22 @@ header.hero .hero-body .hero-text .page-scroll {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  4.1. TEXT SLIDER
 /*---------------------------------------------------------------------*/
+
 #text-slider .carousel-inner {
   padding-bottom: 3px;
 }
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  4.2. SLIDESHOW
 /*---------------------------------------------------------------------*/
+
 @media (min-width: 1280px) {
   header.hero.bg-slideshow-yes {
     background: transparent;
@@ -574,8 +616,11 @@ header.hero .hero-body .hero-text .page-scroll {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  4.3. PARALLAX
 /*---------------------------------------------------------------------*/
+
 header.hero.parallax-yes {
   display: block;
   background: none;
@@ -607,8 +652,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  4.4. BLINKER
 /*---------------------------------------------------------------------*/
+
 @-moz-keyframes blinker {
   0% {
     opacity: 1.0;
@@ -647,8 +695,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  5. NAVIGATION
 /*---------------------------------------------------------------------*/
+
 .navbar.navbar-fixed-top {
   margin: 0;
   border: 0;
@@ -817,8 +868,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  5.1. NAVIGATION - CENTER MENU
 /*---------------------------------------------------------------------*/
+
 @media (min-width: 992px) {
   .navbar.navbar-fixed-top.center-menu .navbar-nav {
     float: none;
@@ -835,8 +889,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /* 6. SECTION
 /*---------------------------------------------------------------------*/
+
 .section .section-wrapper > .section-content {
   padding: 80px 0px;
 }
@@ -848,6 +905,7 @@ header.hero.parallax-yes > .parallax > .bcg {
 }
 
 .section .section-title {
+  margin-top: 30px;
   margin-bottom: 20px;
   font-size: 35px;
   letter-spacing: 1px;
@@ -977,8 +1035,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.1. SECTION - PROFILE
 /*---------------------------------------------------------------------*/
+
 #profile {
   background-color: #0d0c0d;
 }
@@ -991,8 +1052,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.1.1. PROFILE TEXT
 /*---------------------------------------------------------------------*/
+
 #profile .profile-text {
   text-align: center;
 }
@@ -1030,8 +1094,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.1.2. CONTACT DETAILS
 /*---------------------------------------------------------------------*/
+
 #profile .contact-details {
   margin-top: 30px;
 }
@@ -1095,8 +1162,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.1.3. PROFILE PICTURE
 /*---------------------------------------------------------------------*/
+
 #profile .pp-wrapper {
   position: relative;
 }
@@ -1126,8 +1196,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.2. SECTION - PORTFOLIO
 /*---------------------------------------------------------------------*/
+
 #portfolio {
   position: relative;
   z-index: 5;
@@ -1253,8 +1326,11 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.2.1. MAGNIFIC POP UP CUSTOM
 /*---------------------------------------------------------------------*/
+
 .mfp-bg {
   background-color: #0d0c0d;
 }
@@ -1315,8 +1391,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.2.2. MAGNIFIC POP CUSTOM - FADE EFFECT
 /*---------------------------------------------------------------------*/
+
 .mfp-fade.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.15s ease-out;
@@ -1349,8 +1428,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.3. SECTION - SERVICES
 /*---------------------------------------------------------------------*/
+
 #services {
   background-color: #0d0c0d;
 }
@@ -1453,8 +1535,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.4. SECTION - STRENGTHS
 /*---------------------------------------------------------------------*/
+
 #strengths {
   background-image: url('../images/bg-strengths.jpg');
   background-position: center top;
@@ -1478,7 +1563,7 @@ button.mfp-arrow:active {
   bottom: 0;
   left: 50%;
   width: 100%;
-  height: 320px;
+  height: 480px;
   margin-top: 40px;
   margin-left: -50%;
   opacity: 0.8;
@@ -1597,7 +1682,7 @@ button.mfp-arrow:active {
 .column-chart > .chart > .item {
   position: relative;
   float: left;
-  width: 20%;
+  width: 10%;
   height: 100%;
 }
 
@@ -1628,7 +1713,7 @@ button.mfp-arrow:active {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 26px;
+  height: 16px;
   line-height: 26px;
   background-color: #eee;
   color: #000;
@@ -1645,18 +1730,23 @@ button.mfp-arrow:active {
   width: 100%;
   height: 20%;
   background-color: #c80a48;
+  white-space: nowrap;
 }
 
 .column-chart > .chart > .item > .bar > .item-progress > .title {
   position: absolute;
-  top: calc(50% - 13px);
+  /*top: calc(10% - 13px);*/
+  bottom: 16px;
   left: 50%;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
   letter-spacing: 2px;
-  -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
-  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transform-origin: left center;
+  -moz-transform-origin: left center;
+  -webkit-transform-origin: left center;
 }
 
 @media (min-width: 360px) {
@@ -1673,8 +1763,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.5. SECTION - RESUME
 /*---------------------------------------------------------------------*/
+
 #resume {
   background-color: #171717;
 }
@@ -1852,8 +1945,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.6. SECTION - REFERENCES
 /*---------------------------------------------------------------------*/
+
 #references {
   background-image: url('../images/bg-references.jpg');
 }
@@ -2032,8 +2128,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.7. SECTION - SKILLS
 /*---------------------------------------------------------------------*/
+
 #skills {
   background-color: #0d0c0d;
 }
@@ -2120,8 +2219,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.8. SECTION - KNOWLEDGE
 /*---------------------------------------------------------------------*/
+
 #knowledge {
   background-color: #0d0c0d;
 }
@@ -2196,8 +2298,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.9. SECTION - ACCOLADES
 /*---------------------------------------------------------------------*/
+
 #accolades {
   background-color: #0d0c0d;
 }
@@ -2272,8 +2377,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.10. SECTION - MILESTONES
 /*---------------------------------------------------------------------*/
+
 #milestones {
   background-image: url("../images/bg-milestones.jpg");
 }
@@ -2344,8 +2452,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.11. SECTION - WORK PROCESS
 /*---------------------------------------------------------------------*/
+
 #work-process {
   background-color: #171717;
 }
@@ -2589,16 +2700,22 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.12. SECTION - CONTACT
 /*---------------------------------------------------------------------*/
+
 #contact {
   background-color: #0d0c0d;
 }
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.12.1. CONTACT FORM
 /*---------------------------------------------------------------------*/
+
 #contact .contact-form {
   margin-top: 40px;
 }
@@ -2653,25 +2770,33 @@ button.mfp-arrow:active {
   box-shadow: none;
 }
 
+
 /* WebKit browsers */
-#contact .contact-form .form-group .input-group ::-webkit-input-placeholder {
+
+#contact .contact-form .form-group .input-group::-webkit-input-placeholder {
   color: #a1a1a1;
 }
+
 
 /* Firefox 4 to 18 */
-#contact.contact-form .form-group .input-group :-moz-placeholder {
+
+#contact.contact-form .form-group .input-group:-moz-placeholder {
   color: #a1a1a1;
   opacity: 1;
 }
+
 
 /* Firefox 19+ */
-#contact .contact-form .form-group .input-group ::-moz-placeholder {
+
+#contact .contact-form .form-group .input-group::-moz-placeholder {
   color: #a1a1a1;
   opacity: 1;
 }
 
+
 /* IE 10+ */
-#contact .contact-form .form-group .input-group :-ms-input-placeholder {
+
+#contact .contact-form .form-group .input-group:-ms-input-placeholder {
   color: #a1a1a1;
 }
 
@@ -2710,8 +2835,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.12.2. CONTACT DETAILS
 /*---------------------------------------------------------------------*/
+
 #contact .contact-details .speech-bubble {
   position: relative;
   width: 170px;
@@ -2753,8 +2881,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  6.13. SECTION - BLOG
 /*---------------------------------------------------------------------*/
+
 #blog {
   background-color: #0d0c0d;
 }
@@ -2824,8 +2955,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  7. MAP
 /*---------------------------------------------------------------------*/
+
 #map {
   position: relative;
 }
@@ -2852,8 +2986,11 @@ button.mfp-arrow:active {
 
 
 /*---------------------------------------------------------------------*/
+
+
 /*  8. FOOTER
 /*---------------------------------------------------------------------*/
+
 footer.footer {
   background-color: #171717;
   padding-top: 70px;
