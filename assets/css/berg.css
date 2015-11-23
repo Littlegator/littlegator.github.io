@@ -909,7 +909,7 @@ header.hero.parallax-yes > .parallax > .bcg {
 
 @media (min-width: 768px) {
   .section .section-wrapper > .section-content {
-    padding: 100px 0px;
+    padding: 40px 0px;
   }
 }
 
@@ -2022,6 +2022,7 @@ button.mfp-arrow:active {
   -o-box-shadow: 3px 3px 10px #0d0c0d;
   box-shadow: 3px 3px 10px #0d0c0d;
   border-radius: 50%;
+  text-shadow: 0 0 0 #000;
 }
 
 #references .flexslider.references > .slides > .item .profile > img {
@@ -3087,4 +3088,11 @@ footer.footer .copyright {
 
 footer.footer .copyright p {
   font-size: 14px;
+}
+
+
+/* GENERAL */
+
+.contrast-outline {
+  text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
 }
